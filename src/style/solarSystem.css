@@ -1,0 +1,12 @@
+.planetas {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.planetsCards {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-around;
+}

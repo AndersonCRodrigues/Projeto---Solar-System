@@ -1,0 +1,20 @@
+[data-testid = "missions"] {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.missoes {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px black;
+}
+
+section {
+  display: grid;
+  margin: 0 50px;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  gap: 10px;
+}

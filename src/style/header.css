@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 5em;
+}
+
+.elipse {
+  border-radius: 50%;
+  display: inline-block;
+  height: 15em;
+  width: 7em;
+  border: 1px solid #ffffff;
+  transform: matrix(0.58, 0.78, -0.87, 0.56, 0, 0);
+  position: absolute;
+}
