@@ -6,7 +6,7 @@ export default class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card">
+      <section data-testid="mission-card">
         <p data-testid="mission-name">{name}</p>
         <article className='info'>
           <div className='yearCountry'>
@@ -24,7 +24,7 @@ export default class MissionCard extends React.Component {
             <span data-testid="mission-destination" >{destination}</span>
           </div>
         </article>
-      </div>
+      </section>
     );
   }
 }
